@@ -10,7 +10,7 @@ def page(request):
     context = browser.new_context(ignore_https_errors=True)
     page = context.new_page()
 
-    page.goto(url)
+    page.goto(url, wait_until="domcontentloaded", timeout=60000)
     page.wait_for_load_state("load")
     
     
