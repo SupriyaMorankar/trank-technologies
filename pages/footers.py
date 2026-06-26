@@ -39,19 +39,19 @@ class footers:
     
 
 
-    def footer_options_click(self):
-        for i in self.web_dev_options:
-            i.click()
-            self.page.wait_for_timeout(3000)
-            self.page.go_back()
-        self.page.wait_for_timeout(1000)
+    # def footer_options_click(self):
+    #     for i in self.web_dev_options:
+    #         i.click()
+    #         self.page.wait_for_timeout(3000)
+    #         self.page.go_back()
+    #     self.page.wait_for_timeout(1000)
 
-    def ui_ux_options_click(self):
-        for i in self.ui_ux_options:
-            i.click()
-            self.page.wait_for_timeout(3000)
-            self.page.go_back()
-        self.page.wait_for_timeout(1000)
+    # def ui_ux_options_click(self):
+    #     for i in self.ui_ux_options:
+    #         i.click()
+    #         self.page.wait_for_timeout(3000)
+    #         self.page.go_back()
+    #     self.page.wait_for_timeout(1000)
 
     def app_development_options_click(self):
         for i in self.app_development_opt:

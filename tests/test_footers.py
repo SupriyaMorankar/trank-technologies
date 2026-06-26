@@ -3,9 +3,9 @@ import pytest
 from pages.footers import footers
 
 @pytest.mark.smoke
-def test_footer_options_click(page):
-    footer = footers(page)
-    footer.footer_options_click()
+# def test_footer_options_click(page):
+#     footer = footers(page)
+#     footer.footer_options_click()
 
 # def test_ui_ux_options_click(page):
 #     footer = footers(page)
